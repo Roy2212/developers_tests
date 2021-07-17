@@ -45,6 +45,8 @@ const rootNode = {
  * @param nodeName The name to search
  * @returns undefined when no node is found or the founded node
  */
+const array1=[node, nodeName]
+const found= array1.find (node, nodeName)
 const searchInNodeByName = (node, nodeName) => undefined
 // HERE ENDS WHAT YOU CAN MODIFY
 
